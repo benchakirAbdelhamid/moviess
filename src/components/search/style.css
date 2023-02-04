@@ -1,3 +1,7 @@
+.all_search {
+    background-color: rgb(11, 2, 32);
+}
+
 .type_btn{
     width: 100%;
     display: flex;
