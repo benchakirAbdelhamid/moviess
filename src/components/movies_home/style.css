@@ -1,0 +1,28 @@
+.all_ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: calc(5px + 2vw);
+    flex-wrap: wrap;
+    padding-top: calc(10px + 2.5vh);
+    padding-bottom: 15px;
+    background: rgb(11, 2, 32);
+}
+
+.seeMore {
+    width: calc(100px + 5vw);
+    min-height: calc(50px + 5vh);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(160, 160, 160, 0.281);
+    color: #fffefe;
+    font-size: calc(10px + 1vw);
+    cursor: pointer;
+    transition: .3s;
+    /* border: 1px solid rgb(122, 94, 223); */
+}
+
+.seeMore:hover {
+    background: rgba(160, 160, 160, 0.418);
+}
